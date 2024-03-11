@@ -1,0 +1,25 @@
+.app_form {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 40px;
+  width: 70%;
+
+  &-home-loan-amount {
+    margin-top: 3px;
+    &-upper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      &-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #000000;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 20px 0;
+        margin-right: 30px;
+      }
+    }
+  }
+}
